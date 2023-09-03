@@ -2,7 +2,7 @@ import cloudwatch
 import switchbot
 
 
-def main():
+def lambda_handler(event, context):
   data = switchbot.get_data()
   temperature = data['temperature']
   humidity = data['humidity']
@@ -12,4 +12,4 @@ def main():
 
 
 if __name__ == "__main__":
-  main()
+  lambda_handler(None, None)
