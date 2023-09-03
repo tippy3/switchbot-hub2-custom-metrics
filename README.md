@@ -8,7 +8,7 @@ LambdaとEventBridgeで5分ごとに定期実行しています
 
 **#1** [app/switchbot.py](app/switchbot.py)で使う3つのシークレットをAWS Secrets Managerに登録します
 
-マネジメントコンソール -> Secrets Manager -> Secrets -> Store a new secret
+マネジメントコンソール → Secrets Manager → Secrets → Store a new secret
 
 シークレット名: `switchbot`
 
@@ -18,13 +18,13 @@ LambdaとEventBridgeで5分ごとに定期実行しています
 |`secret`|SwitchbotアカウントのSecret Key|
 |`device_id`|Switchbot Hub 2のDevice ID|
 
-**#2** ソースコードと外部ライブラリをzip化します
+**#2** ソースコードと外部ライブラリをそれぞれzip化します
 
 ```bash
 ./zip.sh
 ```
 
-**#3** AWSリソースを作ります
+**#3** AWSリソースを全て作ります
 
 ```bash
 ./create_aws_resources.sh
