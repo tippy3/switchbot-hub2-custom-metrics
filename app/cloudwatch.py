@@ -3,7 +3,7 @@ import boto3
 def post_data(temperature, humidity, light_level):
   # https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch/client/put_metric_data.html
 
-  namespace = 'Test'
+  namespace = 'Switchbot'
   dimentions = [
     {
       'Name': 'DeviceName',
