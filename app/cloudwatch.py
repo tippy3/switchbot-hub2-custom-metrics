@@ -38,3 +38,4 @@ def post_data(temperature, humidity, light_level):
 
 if __name__ == "__main__":
   post_data(28.5, 65, 10)
+  print('success')
