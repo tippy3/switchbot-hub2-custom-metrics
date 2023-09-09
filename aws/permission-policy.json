@@ -9,6 +9,7 @@
         "secretsmanager:DescribeSecret",
         "secretsmanager:ListSecretVersionIds",
         "cloudwatch:PutMetricData",
+        "logs:CreateLogGroup",
         "logs:CreateLogStream",
         "logs:PutLogEvents"
       ],
