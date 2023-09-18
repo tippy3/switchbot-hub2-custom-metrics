@@ -32,7 +32,9 @@ aws logs put-retention-policy \
 
 aws lambda publish-layer-version \
   --layer-name $project \
-  --zip-file fileb://layer.zip
+  --zip-file fileb://layer.zip \
+  --compatible-runtimes python3.11 \
+  --compatible-architectures x86_64
 
 layer_version="$(aws lambda list-layer-versions --layer-name $project --query 'LayerVersions[0].Version' --output text)"
 
