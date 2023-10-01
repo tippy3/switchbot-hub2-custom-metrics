@@ -8,7 +8,7 @@ LambdaとEventBridgeで5分ごとに定期実行しています
 
 https://qiita.com/tippy/items/adc3c53d7928e60c5162
 
-[![Qiita](https://github.com/tippy3/switchbot-hub2-custom-metrics/assets/26988793/24dd9493-e47d-4b7d-ac1b-ecb4860c08e8)](https://qiita.com/tippy/items/adc3c53d7928e60c5162)
+<a href="https://qiita.com/tippy/items/adc3c53d7928e60c5162" target="blank"><img src="https://github.com/tippy3/switchbot-hub2-custom-metrics/assets/26988793/24dd9493-e47d-4b7d-ac1b-ecb4860c08e8" alt="Qiita"></a>
 
 ## 使い方
 
